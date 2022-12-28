@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+sudo docker exec --tty --interactive "$(compose-id)" $@

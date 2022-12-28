@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+youtube-dl -x --audio-format mp3 --add-metadata -o '%(playlist_index)s - %(title)s.%(ext)s' $1

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+printf "\033]52;c;$(base64)\a"
+
