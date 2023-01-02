@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+if [ $# -ne 1 ]; then
+  printf "Invalid usage of highlight.\n\thighlight <word>\n"
+  exit 1
+fi
+
+grep -E --color "$1|"
