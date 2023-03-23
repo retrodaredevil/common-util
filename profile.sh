@@ -6,3 +6,4 @@ function up () {
     cd .. || exit 1
   done
 }
+export GPG_TTY=$(tty)
