@@ -3,4 +3,4 @@ BASEDIR=$(dirname "$0")
 "$BASEDIR/../setup_venv.sh"
 . "$BASEDIR/../.venv/bin/activate"
 
-yt-dlp -x --audio-format mp3 --add-metadata -o '%(playlist_index)s - %(title)s.%(ext)s' $1
+mp3-helper "$@"
