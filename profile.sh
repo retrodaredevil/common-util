@@ -6,4 +6,7 @@ function up () {
     cd .. || exit 1
   done
 }
+function services () {
+  cd "$HOME/programming/Other/server-config/configs/$HOSTNAME/services"
+}
 export GPG_TTY=$(tty)
