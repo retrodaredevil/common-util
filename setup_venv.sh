@@ -9,4 +9,5 @@ fi
 
 python3 -m venv .venv
 . .venv/bin/activate
+pip install wheel setuptools --upgrade
 pip install -r requirements.txt

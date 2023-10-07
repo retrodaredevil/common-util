@@ -1,2 +1,4 @@
+wheel
 yt-dlp
 git+https://github.com/retrodaredevil/media-helper.git
+git+https://github.com/retrodaredevil/see-docker.git
