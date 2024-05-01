@@ -7,3 +7,4 @@ function up () {
   done
 }
 export GPG_TTY=$(tty)
+alias ranger="pipx run --spec ranger-fm ranger"

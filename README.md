@@ -1,6 +1,8 @@
 # common-util
 Contains scripts and common utilities that I regularly use on Linux machines I control
 
+https://pipx.pypa.io/latest/installation/
+
 ```
 # ~/.bashrc
 
