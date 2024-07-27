@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+BASEDIR=$(dirname "$0")
+"$BASEDIR/../setup_venv.sh"
+. "$BASEDIR/../.venv/bin/activate"
+
+spotdl --format flac --output '{artist}/{album}/{list-position} - {title}.{output-ext}' $1
