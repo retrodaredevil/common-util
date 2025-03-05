@@ -1,3 +1,4 @@
+# This is deprecated
 
 function up () {
   times=${1:-1}
