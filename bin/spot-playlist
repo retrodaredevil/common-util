@@ -6,4 +6,4 @@ BASEDIR=$(dirname "$0")
 # https://spotdl.readthedocs.io/en/latest/usage/#audio-formats-and-quality
 
 #spotdl --format flac --output '{artist}/{album}/{list-position} - {title}.{output-ext}' $1
-spotdl --format opus --bitrate disable --output '{artist}/{album}/{list-position} - {title}.{output-ext}' $1
+spotdl --format opus --bitrate disable --output '{artist}/{album}/{disc-number}-{track-number} - {title}.{output-ext}' $1
