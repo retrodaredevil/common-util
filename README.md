@@ -7,15 +7,15 @@ https://pipx.pypa.io/latest/installation/
 # ~/.bashrc
 
 export PATH="$PATH:$HOME/programming/Other/common-util/bin"
-
-# optionally add this
-source "$HOME/programming/Other/common-util/profile.sh"
 ```
 
 ## Setup for bin
 ```
 sudo apt-get install -y ffmpeg python3-venv
-
+```
+or
+```
+# for dnf (fedora) it should already be installed
 ```
 
 ## TODO
